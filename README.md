@@ -15,11 +15,11 @@ npm start
 
 When the server is running, in any browser go to http://localhost/tasks
 
-For add a task, get, update or delete, go to Insomnia or Postman and do a request with a json with this two fields:
+For add a task, get, update or delete, go to Insomnia or Postman, set Header "Content-Type" and the value like "application/json" and send a request with a json with this two fields:
 ```
 {
-	"title": "curso",
-	"description": "curso node"
+	"title": "Your new task",
+	"description": "Your new description"
 }
 ```
 
